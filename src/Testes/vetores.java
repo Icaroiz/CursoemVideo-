@@ -1,15 +1,17 @@
 package Testes;
 
-import java.util.Arrays;
+
 
 public class vetores {
 
 	public static void main(String[] args) {
-		
-	int v[]= new int [20];
-	Arrays.fill(v,0);
-	for (int valor: v) {
-		System.out.println(valor +"");
+	
+		int n[]= {3,2,8,7,5,4};
+		System.out.println("Total de casos de N: "+ n.length);
+		System.out.println();
+		for (int c=0; c<=n.length-1; c++) {
+		System.out.println("na posicao "+ c +" temos o valor " + n[c]); 
+	
 			}
 		}
 	}
@@ -22,11 +24,10 @@ n[2] = 8;
 n[3] = 2;
 
 Teste declaração de vetor #2
-int n[]= {3,2,8,7,5,4};
-System.out.println("Total de casos de N: "+ n.length);
-System.out.println();
-for (int c=0; c<=n.length-1; c++) {
-System.out.println("na posicao "+ c +" temos o valor " + n[c]); 
+int v[]= new int [20];
+Arrays.fill(v,0);
+for (int valor: v) {
+System.out.println(valor +"");
 
 Teste declaração de vetor #3
 String mes[]= {"Jan","Fev","Mar","Abr","Mai","Jun","Jul","Ago","Set","Out","Nov","Dez"};
