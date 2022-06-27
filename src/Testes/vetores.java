@@ -39,13 +39,14 @@ Teste declaração de vetor #4
 double v[]= {3.5,2.85,3.1,3.0};
 for(double valor: v) {
 System.out.println(valor + "");}
-	
+
+Teste declaração de vetor #5
 int n[]= {3,2,8,7,5,4};
 Arrays.sort(n);
 for (int valor: n) {
 System.out.println(valor + "" ); 
 
-
+Teste declaração de vetor #6
 int vet[]= {3,7,8,1,9,4,2};
 for (int v:vet) {
 System.out.print(" "+ v + " ");}
